@@ -1,0 +1,9 @@
+<svg width="720" height="860" viewBox="0 0 720 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="860" rx="36" fill="#F8E9DB"/>
+  <circle cx="360" cy="265" r="128" fill="#DDAF8B"/>
+  <path d="M168 760C168 627.452 275.452 520 408 520H312C444.548 520 552 627.452 552 760V860H168V760Z" fill="#C95F3F"/>
+  <path d="M233 287C233 218.517 288.517 163 357 163H363C431.483 163 487 218.517 487 287V342C487 410.483 431.483 466 363 466H357C288.517 466 233 410.483 233 342V287Z" fill="#F5D7BE"/>
+  <path d="M250 230C257.947 171.423 308.193 127 367.307 127C425.931 127 475.895 170.695 484.352 228.699L487 247H250V230Z" fill="#5A3527"/>
+  <path d="M259 664C288.112 617.443 339.197 589 394.107 589C447.027 589 496.73 615.388 527 660V860H259V664Z" fill="#8A3520"/>
+  <text x="360" y="807" text-anchor="middle" fill="#FFF8F0" font-family="Arial, sans-serif" font-size="28" font-weight="700">HEADSHOT PLACEHOLDER</text>
+</svg>

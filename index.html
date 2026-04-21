@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for Khushi featuring an about section, resume, work samples, awards, and contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Khushi</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#samples">Work</a>
+          <a href="#awards">Awards</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-frame">
+          <div class="hero-copy">
+            <p class="eyebrow">Portfolio</p>
+            <h1>Building thoughtful software with purpose, precision, and impact.</h1>
+            <p class="lede">
+              This portfolio reflects on my academic journey at the University of Alabama, 
+              showcasing some of the work I am most proud of. It includes projects, papers, 
+              and leadership experiences that demonstrate my growth as a developer and collaborator.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#samples">View Work Samples</a>
+              <a class="button button-secondary" href="resume/April2026_KhushiModi_Resume.pdf" download>
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <aside class="hero-panel">
+            <div class="headshot-card">
+              <img
+                src="assets/headshot.jpg"
+              />
+            </div>
+          </aside>
+        </section>
+
+        <section id="about" class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>who I am and who I aspire to be</h2>
+          </div>
+          <div class="statement-grid">
+            <article class="content-card statement-card">
+              <h3>Who am I?</h3>
+              <p>
+                I'm a first-generation college student pursuing computer science, driven by the opportunity to create 
+                something meaningful through technology. My path has been defined by learning how to navigate unfamiliar 
+                spaces, ask questions, and build confidence over time.
+              </p>
+              <p>
+                Those experiences have shaped how I approach my work today — with intention, resilience, and a focus 
+                on building solutions that are both thoughtful and impactful.
+              </p>
+            </article>
+            <article class="content-card statement-card accent-card">
+              <h3>Who do I aspire to be?</h3>
+              <p>
+                I aspire to become an engineer who builds technology that is both thoughtful and practical — 
+                systems that not only work at scale, but genuinely improve how people interact with tools and information.
+              </p>
+              <p>
+                I aim to grow into someone who leads with clarity, collaborates effectively across teams, 
+                and approaches problems with both technical depth and curiosity.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="resume" class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Resume</p>
+            <h2>experience, leadership, and technical work at a glance</h2>
+          </div>
+          <div class="resume-layout">
+            <article class="content-card resume-card">
+              <div>
+                <h3>Resume Download</h3>
+                <p>
+                  For a more detailed overview of my technical experience, leadership roles, 
+                  and project work, you can download my resume below.
+                </p>
+              </div>
+              <a class="button button-primary" href="resume/April2026_KhushiModi_Resume.pdf" download>
+                Download Resume
+              </a>
+            </article>
+            <article class="content-card timeline-card">
+              <h3>Highlights</h3>
+              <ul class="timeline">
+                <li>
+                  <strong>Software Engineering:</strong> Built full-stack and backend solutions through internship experience in enterprise and cloud-focused environments.
+                </li>
+                <li>
+                  <strong>AI & Innovation:</strong> Developed applied AI prototypes and explored how intelligent systems can improve internal workflows and decision-making.
+                </li>
+                <li>
+                  <strong>Leadership:</strong> Grew as a collaborator and leader through student organizations, mentorship, and involvement on campus.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="samples" class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Work Samples</p>
+            <h2>selected projects and papers</h2>
+          </div>
+          <div class="samples-grid">
+            <article class="sample-card content-card">
+              <div class="sample-media">
+                <img
+                  src="assets/DataScienceStudyImage.png"
+                  alt="Preview image for the Data Science Study paper"
+                />
+              </div>
+              <div class="sample-content">
+                <p class="sample-type">Paper</p>
+                <h3>Data Science Study</h3>
+                <p>
+                  A comparative study of recommender systems in e-commerce, 
+                  like Amazon and Netflix.
+                  This paper explores the algorithms behind these platforms, their impact 
+                  on user experience, and the ethical considerations of personalized 
+                  recommendations.
+                </p>
+                <a
+                  class="button button-secondary"
+                  href="work-samples/DataSciencePaper.pdf"
+                  download
+                >
+                  Download PDF
+                </a>
+              </div>
+            </article>
+            <article class="sample-card content-card">
+              <div class="sample-media sample-media-phone">
+                <img
+                  src="assets/bus-app-2.png"
+                  alt="Mobile screen preview of the Bus App Prototype"
+                />
+              </div>
+              <div class="sample-content">
+                <p class="sample-type">Project</p>
+                <h3>Bus App Prototype</h3>
+                <p>
+                  A high-fidelity prototype for an improved user interface design of the PassioGo
+                  application used by University of Alabama students and visitors to navigate the 
+                  campus bus system. The prototype focuses on enhancing user experience through intuitive 
+                  design and streamlined functionality.
+                </p>
+                <a
+                  class="button button-secondary"
+                  href="https://manjilasingh.github.io/bus-app-prototype/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Prototype
+                </a>
+              </div>
+            </article>
+            <article class="sample-card content-card">
+              <div class="sample-media">
+                <img
+                  src="assets/password-manager.png"
+                  alt="Preview image for the Password Management System"
+                />
+              </div>
+              <div class="sample-content">
+                <p class="sample-type">Project</p>
+                <h3>Password Management System</h3>
+                <p>
+                  A project inspired by the Bitwarden password manager, focusing on creating a 
+                  secure and user-friendly system for managing passwords. The project includes 
+                  design and development of features such as password generation, secure storage, 
+                  autofill functionality, and credit card information management, with an emphasis on
+                  usability and security best practices.
+                </p>
+                <a
+                  class="button button-secondary"
+                  href="https://example.com/password-management-system"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="awards" class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Awards</p>
+            <h2>recognition, achievements, and milestones</h2>
+          </div>
+          <div class="awards-grid awards-grid-five">
+            <article class="content-card award-card">
+              <span class="award-year">2026</span>
+              <h3>UPE Outstanding Graduate Student</h3>
+              <p>
+                Nominated by a faculty member for demonstrating exceptional academic
+                performance, leadership, and contributions to the university
+                community. This award is sponsored by Upsilon Pi Epsilon, the
+                international honor society for computing and information
+                disciplines.
+              </p>
+            </article>
+            <article class="content-card award-card">
+              <span class="award-year">2025</span>
+              <h3>1st Place, University of Alabama Innovate Hackathon</h3>
+              <p>
+                Developed a PHI de-identification system for HL7 data with cross-record 
+                consistency, along with a secure UI for patient record search for a project 
+                inspired by HCA Healthcare's business needs. The project was presented to and judged by a 
+                panel of judges from HCA Healthcare.
+              </p>
+            </article>
+            <article class="content-card award-card">
+              <span class="award-year">2024</span>
+              <h3>Exemplo Capstone Award for Outstanding New Organization</h3>
+              <p>
+                Awarded to the organization where I served in a leadership role
+                during its inaugural year, recognizing our efforts to build a
+                strong foundation, engaging programming, and positive campus impact.
+              </p>
+            </article>
+            <article class="content-card award-card">
+              <span class="award-year">2024</span>
+              <h3>Exemplo Capstone Award for Outstanding Academic Organization</h3>
+              <p>
+                Awarded to the organization where I held a leadership position,
+                recognizing our commitment to sharing resources, fostering
+                community, and supporting the academic and professional growth of
+                members from underrepresented backgrounds.
+              </p>
+            </article>
+            <article class="content-card award-card">
+              <span class="award-year">2024</span>
+              <h3>3rd Place, Institute of Data &amp; Analytics Hackathon</h3>
+              <p>
+                Developed a Python-based assembly line optimization system that reduced 
+                costs using machine learning and greedy algorithms, improving component 
+                alignment, inventory management, and reorder strategies; presented to and 
+                judged by a panel of judges from Mercedes-Benz USA.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>let’s connect</h2>
+          </div>
+          <div class="contact-layout">
+            <article class="content-card contact-card">
+              <h3>Contact Information</h3>
+              <ul class="contact-list">
+                <li><span>Email</span><a href="mailto:kmodi@crimson.ua.edu">kmodi@crimson.ua.edu</a></li>
+                <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/khushidmodi" target="_blank" rel="noreferrer">linkedin.com/in/khushidmodi</a></li>
+                <li><span>GitHub</span><a href="https://github.com/khushidmodi" target="_blank" rel="noreferrer">github.com/khushidmodi</a></li>
+              </ul>
+            </article>
+            <article class="content-card contact-card spotlight-card">
+              <h3>Open to Chat</h3>
+              <p>
+                I’ll be joining Amazon Web Services as a Software Development Engineer after graduation. 
+                In the meantime, I’m always open to connecting with others in tech and learning from new perspectives.
+              </p>
+              <a class="button button-secondary" href="contact.html">
+                Visit Contact Page
+              </a>
+              <a class="button button-primary" href="mailto:kmodi@crimson.ua.edu">
+                Start a Conversation
+              </a>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Khushi Portfolio</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

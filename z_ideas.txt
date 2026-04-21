@@ -1,0 +1,20 @@
+1. rename to repo to academic portfolio? 
+- why? bc i might want my personal portfolio to look a lil different
+
+work samples:
+1. amazon data science paper
+2. password strength indicator
+3. password manager system
+4. bus app prototype
+
+
+Awards
+what should i call these awards? what to call the category?
+1. outstanding academic organization
+2. outstanding new organization
+3. UPE Outstanding graduate
+hackathon Awards
+1. ua innovate
+2. data analytics hackathon
+
+** need to use some more tech wording
