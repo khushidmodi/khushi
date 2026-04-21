@@ -337,6 +337,7 @@ img {
   height: 100%;
   max-height: 13rem;
   object-fit: contain;
+  border-radius: var(--radius-lg);
   filter: drop-shadow(0 18px 28px rgba(87, 45, 20, 0.16));
 }
 
@@ -347,7 +348,7 @@ img {
 .sample-media-phone img {
   max-width: 58%;
   max-height: 14rem;
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
 }
 
 .sample-content {
